@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COLOR JELLY CASE | 어프어프</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/products.css">
+</head>
+<body>
+    <main>
+        <dl class="path">
+            <dt class="skip">현재 페이지 경로</dt>
+            <dd>
+                <a href="#">HOME</a>
+                <a href="#">CASE</a>
+                <a href="#">JELLY CASE</a>
+                <a href="#">COLOR JELLY CASE</a>
+            </dd>
+        </dl>
+        <div id="order">
+            <div class="product_img">
+                <div class="big"><img src="./images/product_01.jpg" alt=""></div>
+                <div class="thum">
+                    <img src="./images/product_01.jpg" alt="">
+                    <img src="./images/product_02.jpg" alt="">
+                    <img src="./images/product_03.jpg" alt="">
+                </div>
+            </div>
+            <div class="order_contents">
+                    <h1>CHECKER BOARD CHERRY COVY(젤리)</h1>
+                    <p><del>17,000WON</del></p>
+                    <p class="price">8,900WON</p>
+                    <p class="deliver"><em>배송비</em><span>2,500원 (50,000원 이상 구매 시 무료 배송)</span></p>
+                    <h2>브랜드</h2>
+                    <select name="brands" id="brands">
+                        <option value="none">- [필수] 옵션을 선택해주세요 - </option>
+                        <option value="galaxy">Galaxy</option>
+                        <option value="iphone">iPhone</option>
+                    </select>
+                    <h2>기종</h2>
+                    <select name="galaxy_model" id="galaxy_model">
+                        <option value="none">- [필수] 옵션을 선택해주세요 -</option>
+                        <option value="galaxys20">Galaxy S20</option>
+                        <option value="galaxys21">Galaxy S21</option>
+                        <option value="galaxys22">Galaxy S22</option>
+                        <option value="galaxynote20">Galaxy Note 20</option>
+                        <option value="galaxynote21">Galaxy Note 21</option>
+                        <option value="galaxynote22">Galaxy Note 22</option>
+                    </select>
+                    <select name="iphone_model" id="iphone_model">
+                        <option value="none">- [필수] 옵션을 선택해주세요 - </option>
+                        <option value="iphone12">iPhone 12</option>
+                        <option value="iphone12pro">iPhone 12 Pro</option>
+                        <option value="iphone13">iPhone 13</option>
+                        <option value="iphone13pro">iPhone 13 Pro</option>
+                        <option value="iphone14">iPhone 14</option>
+                        <option value="iphone14pro">iPhone 14 Pro</option>
+                    </select>
+                    <div class="order_list">
+                        <div class="order_product">
+                            <p class="type">checker board cherry covy(젤리)</p>
+                            <p class="model">- iPhone 14 Pro</p>
+                        </div>
+                        <input type="number" value="1" id="order_num">
+                        <button type="button" id="cancel"><img src="./images/product_cancel.png" alt=""></button>
+                        <em><span>17,000</span>WON</em>
+                    </div>
+                    <div class="total">
+                        <h2>TOTAL PRICE :</h2>
+                        <p class="total"></p>
+                    </div>
+                    <div class="btn">
+                        <button id="buy" type="button"><img src="./images/product_btn01.png" alt="buy it now"></button>
+                        <button id="cart" type="button"><img src="./images/product_btn02.png" alt="add to cart"></button>
+                        <button id="wish" type="button"><img src="./images/product_btn03.png" alt="add to wish"></button>
+                    </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html> 
