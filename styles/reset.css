@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Noto+Sans+KR:wght@300;400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap');
 
 * {box-sizing:border-box;}
 html,body,h1,h2,h3,h4,h5,h6,
@@ -8,7 +9,7 @@ table, tr, th, td, thead,tbody,tfoot
 form, fieldset, legend, input, label, button,textarea, option, select 
 header, main,footer,article,section,aside,nav,figure,figcaption,
 div, span {
-    font-family:'맑은 고딕',"Font Awesome 5 Free","Font Awesome 5 Brands";
+    font-family:'Noto Sans KR',"Font Awesome 5 Free","Font Awesome 5 Brands";
     margin:0; padding:0; 
     font-size:1.0rem; 
     font-weight:normal; 
